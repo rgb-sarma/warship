@@ -6,6 +6,12 @@ public class SmolShip extends BattleShip {
     }
 
     @Override
+    public void addToFleet(CommandShip ship) {
+        ship.addToFleet(this);
+        System.out.println("Added to fleet!");
+    }
+
+    @Override
     public void attack(Ship ship) {
         ship.getDamage(this.damage);
     }

@@ -21,5 +21,8 @@ public class Main {
         System.out.println(fleetComander.getHp());
         System.out.println(carGO.getHp());
 
+        bigChungus.addToFleet(fleetComander);
+        carGO.addToFleet(fleetComander);
+
     }
 }

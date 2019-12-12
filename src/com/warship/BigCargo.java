@@ -10,6 +10,12 @@ public class BigCargo extends Cargo {
     }
 
     @Override
+    public void addToFleet(CommandShip ship) {
+        ship.addToFleet(this);
+        System.out.println("Added to fleet!");
+    }
+
+    @Override
     public void getDamage(int damage) {
         this.hp -= (damage - shield);
     }

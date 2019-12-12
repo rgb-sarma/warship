@@ -16,4 +16,9 @@ public abstract class BattleShip extends Ship {
         ship.getDamage(this.damage);
     }
 
+    //add to fleet method
+    public void addToFleet(CommandShip ship){
+
+    }
+
 }

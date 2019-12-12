@@ -6,7 +6,7 @@ public abstract class Ship {
     public int hp;
 
     //speed
-    private int speed = 100;
+    private int speed;
 
     //constructorr
     public Ship(int hp) {

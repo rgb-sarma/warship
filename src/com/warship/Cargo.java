@@ -8,4 +8,9 @@ public abstract class Cargo extends Ship {
         super(hp);
         this.capacity = capacity;
     }
+
+    public void addToFleet(CommandShip ship){
+        ship.addToFleet(this);
+        System.out.println("Added to fleet!");
+    }
 }

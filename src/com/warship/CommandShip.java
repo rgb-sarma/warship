@@ -15,7 +15,7 @@ public class CommandShip extends BattleShip {
         this.fleet = new LinkedList<Ship>();
     }
 
-    public void addToFleet(Ship ship){
+    public void addToFleet(Ship ship) {
         this.fleet.add(ship);
     }
 
