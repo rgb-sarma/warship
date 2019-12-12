@@ -3,7 +3,7 @@ package com.warship;
 public class Main {
 
     public static void main(String[] args) {
-	    System.out.println("This compiles");
+	    System.out.println("Thisg compiles");
 
         SmolShip smol = new SmolShip();
         BigShip bigChungus = new BigShip();
