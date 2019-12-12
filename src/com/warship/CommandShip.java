@@ -3,13 +3,13 @@ package com.warship;
 import java.util.LinkedList;
 import java.util.List;
 
-public class BigChungus extends BattleShip {
+public class CommandShip extends BattleShip {
 
     private List<Ship> fleet;
 
     private int shield;
 
-    public BigChungus() {
+    public CommandShip() {
         super(1000, 150);
         this.shield = 20;
         this.fleet = new LinkedList<Ship>();

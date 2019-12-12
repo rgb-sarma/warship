@@ -1,8 +1,8 @@
 package com.warship;
 
-public class ChonkyBoi extends BattleShip {
+public class BigShip extends BattleShip {
 
-    public ChonkyBoi() {
+    public BigShip() {
         super(500, 100);
     }
 
